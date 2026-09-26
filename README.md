@@ -71,7 +71,7 @@ Whether you are evaluating commercial cloud providers like Microsoft 365 or Box,
 
 Below is a curated collection of self-hosted, community-driven, and open-source file synchronization, sharing, and private cloud projects.
 
-*Note: Repositories are sorted by **GitHub Star Count** in descending order.*
+*Note: Repositories are sorted by **GitHub Stars_Count** in descending order.*
 
 ### ⚡ Primary File Sync & Collaboration Platforms
 
@@ -100,7 +100,7 @@ Below is a curated collection of self-hosted, community-driven, and open-source 
 
 Below are adjacent open-source components that form a production-grade, highly-available enterprise EFSS stack when combined with a collaboration engine:
 
-| Component Category | Repository / Tool | Stars | Role in EFSS Architecture |
+| Component Category | Repository / Tool | GitHub_Stars | Role in EFSS Architecture |
 | :--- | :--- | :--- | :--- |
 | **Workflow Automation** | **[Apache Airflow](https://github.com/apache/airflow)** | [![](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Orchestrating content lifecycle pipelines, scheduled archival, and compliance jobs. |
 | **Event Streaming** | **[Apache Kafka](https://github.com/apache/kafka)** | [![](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Asynchronous audit logs, real-time sync notification distribution, and file upload event buses. |
