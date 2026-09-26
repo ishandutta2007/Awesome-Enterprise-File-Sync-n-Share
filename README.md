@@ -71,7 +71,7 @@ Whether you are evaluating commercial cloud providers like Microsoft 365 or Box,
 
 Below is a curated collection of self-hosted, community-driven, and open-source file synchronization, sharing, and private cloud projects.
 
-*Note: Repositories are sorted by **GitHub Stars_Count** in descending order.*
+*Note: Repositories are sorted by **GitHub_Stars_Count** in descending order.*
 
 ### ⚡ Primary File Sync & Collaboration Platforms
 
