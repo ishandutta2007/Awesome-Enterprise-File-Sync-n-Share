@@ -1,286 +1,157 @@
-# Awesome-Enterprise-File-Sync-n-Share
+![Awesome Enterprise File Sync & Share Banner](./assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-File-Sync-n-Share"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-File-Sync-n-Share?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-File-Sync-n-Share/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-File-Sync-n-Share?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🚀 Top Enterprise File Sync & Share (EFSS) Ecosystem
+
+Curated Directory of Commercial SaaS Platforms & Open-Source Projects for Enterprise File Sync & Share (EFSS), Secure Content Collaboration, Zero-Trust Storage, and Private Cloud Infrastructure.
+
+---
+
+## 📌 Table of Contents
+- [📖 Overview & SEO Keywords](#-overview--seo-keywords)
+- [☁️ Enterprise SaaS & Hosted Platforms](#️-enterprise-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Storage, Security & Identity Infrastructure](#️-storage-security--identity-infrastructure)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📖 Overview & SEO Keywords
+
+This repository provides a comprehensive market landscape of **Enterprise File Sync and Share (EFSS)** solutions, **Managed File Transfer (MFT)** tools, **Zero-Trust Encrypted Storage**, and **Self-Hosted Private Cloud Collaboration** ecosystems.
+
+Whether you are evaluating commercial cloud providers like Microsoft 365 or Box, or engineering a compliance-ready on-premises platform with Nextcloud, MinIO, and Keycloak, this guide covers deployment options, transparent starting pricing, free trial limits, enterprise market size, and open-source star metrics.
+
+---
+
+## ☁️ Enterprise SaaS & Hosted Platforms
+
+📊 **Market Size & Industry Structure:** The global Enterprise File Sync & Share (EFSS) market is estimated at **\$11.8 Billion to \$14.5 Billion** (expanding at a ~22% CAGR). The market is **moderately fragmented**: mega-cloud hyperscalers (Microsoft 365, Google Workspace) control the baseline market share for standard office collaboration, while specialized enterprise vendors (Box, Egnyte, Kiteworks, ShareFile, NetApp) command high-margin enterprise accounts by offering zero-trust security, DLP integration, hybrid edge synchronization, and strict governance control.
+
+*Note: Platforms below are sorted by **Company Size / Revenue / Market Capitalization** in descending order.*
+
+| 🏢 Platform / SaaS Product | 📈 Company Size / Revenue / Valuation | 💰 Starting Pricing Tier | 🎁 Free Forever Plan / Free Trial Limits | 📝 Primary Focus & Enterprise Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft OneDrive for Business](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)** / **[SharePoint](https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration)** | \$3.1 Trillion Market Cap / ~\$245 Billion Revenue | \$5.00 / user / month *(OneDrive Plan 1)* | 30-day free trial *(25 seats, 1 TB / user)* or 5 GB personal free account | Deep Microsoft 365, Teams & Entra ID integration, compliance governance, automated workflows. |
+| **[Google Drive](https://workspace.google.com/products/drive/)** / **[Google Workspace](https://workspace.google.com)** | \$2.1 Trillion Market Cap / ~\$307 Billion Revenue | \$6.00 / user / month *(Business Starter)* | 14-day free trial *(15 GB storage / user)* or 15 GB personal free storage | Cloud-native real-time document editing, Docs/Sheets/Slides, enterprise admin control. |
+| **[NetApp BlueXP](https://bluexp.netapp.com/)** | \$24.0 Billion Market Cap / ~\$6.3 Billion Revenue | \$0.10 / GB / month *(Payload Pay-as-you-go)* | 30-day free evaluation trial *(up to 500 GB payload capacity)* | Hybrid multicloud data management, edge file synchronization, and high-performance cloud storage. |
+| **[OpenText Core Share](https://www.opentext.com/products/core-share)** / **[Hightail](https://www.hightail.com/)** | \$8.5 Billion Market Cap / ~\$5.8 Billion Revenue | \$12.00 / user / month *(Core Share / Pro)* | 30-day free trial *(25 GB storage)* or 2 GB free Lite account | Enterprise content collaboration, governance, controlled external sharing, and heavy file delivery. |
+| **[Dropbox Business](https://www.dropbox.com/business)** / **[Dropbox Enterprise](https://www.dropbox.com/enterprise)** | \$8.5 Billion Valuation / ~\$2.5 Billion Revenue | \$15.00 / user / month *(Essentials Plan)* | 30-day free trial *(3 TB team workspace storage)* or 2 GB free personal account | Seamless cross-platform file synchronization, team spaces, electronic signatures, and admin auditing. |
+| **[Citrix ShareFile](https://www.sharefile.com/)** / **Content Collaboration** | ~\$13.0 Billion Valuation *(CSG Parent)* / ~\$700 Million ARR | \$10.00 / user / month *(ShareFile Premium)* | 30-day free trial *(25 GB storage, unlimited transfer bandwidth)* | Regulated industry file exchange, legal/financial client portals, e-signatures, and custom branding. |
+| **[Box](https://www.box.com/)** | \$4.2 Billion Market Cap / ~\$1.04 Billion Revenue | \$15.00 / user / month *(Business Plan)* | 14-day free trial *(100 GB limit, 5 GB max file size)* or 10 GB free individual plan | Enterprise content management, automated workflows, DLP, enterprise key management (EKM), and AI indexing. |
+| **[Egnyte](https://www.egnyte.com/)** | ~\$1.6 Billion Valuation / ~\$200 Million ARR | \$20.00 / user / month *(Office Plan)* | 15-day free trial *(1 TB storage quota for up to 10 users)* | Hybrid cloud file locking, content governance, threat detection, and AEC/life science compliance. |
+| **[Kiteworks](https://www.kiteworks.com/)** | ~\$1.2 Billion Valuation / ~\$150 Million ARR | \$15.00 / user / month *(Business Tier)* | 14-day free trial *(10 GB transfer quota / 5 users maximum)* | Hardened private content network, MFT, automated email protection, CMMC & FedRAMP compliance. |
+| **[Nasuni](https://www.nasuni.com/)** | ~\$1.2 Billion Valuation / ~\$120 Million ARR | \$14.00 / user / month *(Enterprise equivalent)* | 30-day enterprise evaluation trial *(full feature access)* | Cloud-native global file system, rapid ransomware recovery, and edge caching appliance integration. |
+| **[Zoho WorkDrive](https://www.zoho.com/workdrive/)** | ~\$10.0+ Billion Parent *(Zoho Corp)* / ~\$20 Million ARR | \$2.50 / user / month *(Starter Plan - 1 TB/user)* | 15-day free trial *(1 TB shared team storage)* or 5 GB free personal account | Shared team folders, desktop sync, granular permission roles, and native Zoho Office Suite integration. |
+| **[Syncplicity](https://www.axway.com/en/products/syncplicity)** *(Axway)* | ~\$800 Million Axway Cap / ~\$40 Million ARR | \$6.00 / user / month *(Business Tier)* | 30-day free trial *(100 GB total storage for up to 3 users)* | Secure mobile file access, real-time file replication, hybrid storage connectors, and policy enforcement. |
+| **[Ctera](https://www.ctera.com/)** | ~\$500 Million Valuation / ~\$80 Million ARR | \$18.00 / user / month *(Enterprise Drive)* | 30-day evaluation trial *(up to 1 TB virtual storage)* | Edge-to-cloud file services, zero-trust file sync, branch office caching, and multi-tenant management. |
+| **[Files.com](https://www.files.com/)** | ~\$50 Million ARR *(Private)* | \$10.00 / user / month *(Standard Plan)* | 7-day free trial *(50 GB storage capacity)* | Managed File Transfer (MFT), automated B2B integrations, SFTP/WebDAV/S3 endpoint bridging. |
+| **[LucidLink](https://www.lucidlink.com/)** | ~\$75 Million Valuation / ~\$30 Million ARR | \$12.00 / user / month + \$20.00 / TB / month | 14-day free trial *(100 GB free cloud storage included)* | High-performance streaming file system designed for real-time video editing and massive media workflows. |
+| **[Tresorit](https://tresorit.com/)** | ~\$30 Million ARR *(Swiss Post Subsidiary)* | \$14.50 / user / month *(Business Standard)* | 14-day free trial *(1 TB zero-knowledge encrypted storage)* | Zero-knowledge end-to-end encryption, Swiss privacy protection, and secure client file request links. |
+| **[Nextcloud Enterprise](https://nextcloud.com/enterprise/)** | ~\$25 Million ARR *(Nextcloud GmbH)* | €36.00 / user / year *(~\$3.25 / user / month)* | Community Edition **100% Free Forever** *(unlimited)* or 60-day Enterprise trial | Self-hosted private cloud with enterprise SLAs, custom branding, migration assistance, and security audit support. |
+| **[FileCloud](https://www.filecloud.com/)** *(CodeLathe)* | ~\$25 Million ARR *(Private)* | \$4.50 / user / month *(Standard Essentials)* | 14-day free trial *(unlimited storage and users during trial)* | Self-hosted or cloud file sharing, hyper-secure governance, metadata management, and SIEM integration. |
+| **[Sync.com](https://www.sync.com/)** | ~\$20 Million ARR *(Private)* | \$6.00 / user / month *(Teams Standard)* | **5 GB Free Forever Plan** *(1 user account)* | End-to-end zero-knowledge encrypted cloud storage, HIPAA compliance, and secure password sharing. |
+| **[pCloud Business](https://www.pcloud.com/business.html)** | ~\$15 Million ARR *(Private)* | \$7.99 / user / month *(Business Pro)* | **10 GB Free Forever Plan** *(individual)* or 30-day business trial | Swiss data protection, client-side encryption options, virtual hard drive sync, and file versioning. |
+| **[MASV](https://mcsv.io/)** | ~\$15 Million ARR *(Private)* | \$0.25 / GB downloaded *(Pay-as-you-go)* | 7-day free trial *(20 GB free transfer credit)* | Accelerated large-file transport protocol for creative video post-production and heavy asset delivery. |
+| **[SpiderOak Crossclave](https://spideroak.com/)** | ~\$10 Million ARR *(Private)* | \$6.00 / user / month *(Crossclave Basic)* | 21-day free trial *(5 GB secure space)* | No-knowledge secure file sharing, zero-trust architecture, and space-grade cryptographically secure sync. |
+| **[Filecamp](https://filecamp.com/)** | ~\$5 Million ARR *(Private)* | \$29.00 / month flat *(Business - up to 20 users)* | 30-day free trial *(20 GB storage limit, unlimited trial users)* | Digital Asset Management (DAM) & file sharing with custom white-label branding, proofing, and tagging. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated collection of self-hosted, community-driven, and open-source file synchronization, sharing, and private cloud projects.
+
+*Note: Repositories are sorted by **GitHub Star Count** in descending order.*
+
+### ⚡ Primary File Sync & Collaboration Platforms
+
+- 🔄 **[Syncthing](https://github.com/syncthing/syncthing)** [![](https://img.shields.io/github/stars/syncthing/syncthing?style=social&color=white)](https://github.com/syncthing/syncthing/stargazers) — Decentralized, peer-to-peer continuous continuous file synchronization system that syncs directly between devices without central servers.
+- ⚡ **[MinIO](https://github.com/minio/minio)** [![](https://img.shields.io/github/stars/minio/minio?style=social&color=white)](https://github.com/minio/minio/stargazers) — High-performance S3-compatible object storage layer commonly deployed beneath enterprise EFSS collaboration engines.
+- 🧰 **[rclone](https://github.com/rclone/rclone)** [![](https://img.shields.io/github/stars/rclone/rclone?style=social&color=white)](https://github.com/rclone/rclone/stargazers) — "rsync for cloud storage" - versatile CLI engine supporting bi-directional sync across 70+ cloud backends.
+- ☁️ **[Nextcloud Server](https://github.com/nextcloud/server)** [![](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) — Comprehensive open-source private cloud productivity suite with file sync, sharing, video calls, calendars, and office editing.
+- 📁 **[File Browser](https://github.com/filebrowser/filebrowser)** [![](https://img.shields.io/github/stars/filebrowser/filebrowser?style=social&color=white)](https://github.com/filebrowser/filebrowser/stargazers) — Lightweight self-hosted web-based file manager providing fast file management, user management, and download links.
+- 🌩️ **[Cloudreve](https://github.com/cloudreve/Cloudreve)** [![](https://img.shields.io/github/stars/cloudreve/Cloudreve?style=social&color=white)](https://github.com/cloudreve/Cloudreve/stargazers) — Modern self-hosted cloud drive system supporting local storage, S3, OSS, COS, OneDrive, and remote download tasks.
+- 🗄️ **[Filestash](https://github.com/mickael-kerjean/filestash)** [![](https://img.shields.io/github/stars/mickael-kerjean/filestash?style=social&color=white)](https://github.com/mickael-kerjean/filestash/stargazers) — Web-based frontend client connecting to S3, SFTP, WebDAV, Git, MinIO, and FTP servers.
+- 🔀 **[PairDrop](https://github.com/schlagmichdoch/pairdrop)** [![](https://img.shields.io/github/stars/schlagmichdoch/pairdrop?style=social&color=white)](https://github.com/schlagmichdoch/pairdrop/stargazers) — Local peer-to-peer file transfer system running entirely in web browsers (AirDrop alternative).
+- ✉️ **[Send (Mozilla Send Fork)](https://github.com/timvisee/send)** [![](https://img.shields.io/github/stars/timvisee/send?style=social&color=white)](https://github.com/timvisee/send/stargazers) — End-to-end encrypted file sharing app with self-destructing links and download caps.
+- 🐧 **[Pingvin Share](https://github.com/stonith404/pingvin-share)** [![](https://img.shields.io/github/stars/stonith404/pingvin-share?style=social&color=white)](https://github.com/stonith404/pingvin-share/stargazers) — Privacy-focused self-hosted file sharing platform with custom link expiration, passwords, and reverse proxy support.
+- 🖼️ **[Chibisafe](https://github.com/chibisafe/chibisafe)** [![](https://img.shields.io/github/stars/chibisafe/chibisafe?style=social&color=white)](https://github.com/chibisafe/chibisafe/stargazers) — Modern self-hosted file uploader and link generator with tag management and album support.
+- 📦 **[Pydio Cells](https://github.com/pydio/cells)** [![](https://img.shields.io/github/stars/pydio/cells?style=social&color=white)](https://github.com/pydio/cells/stargazers) — Golang-based enterprise document sharing and collaboration platform designed for microservices architecture.
+- ♾️ **[ownCloud Infinite Scale (oCIS)](https://github.com/owncloud/ocis)** [![](https://img.shields.io/github/stars/owncloud/ocis?style=social&color=white)](https://github.com/owncloud/ocis/stargazers) — Cloud-native file sync and share engine built in Go with microservice architecture and WebDAV CS3 APIs.
+- 📤 **[PsiTransfer](https://github.com/psi-im/psitransfer)** [![](https://img.shields.io/github/stars/psi-im/psitransfer?style=social&color=white)](https://github.com/psi-im/psitransfer/stargazers) — Simple, zero-configuration open-source file transfer solution for large files.
+- 🔗 **[Sharry](https://github.com/eikek/sharry)** [![](https://img.shields.io/github/stars/eikek/sharry?style=social&color=white)](https://github.com/eikek/sharry/stargazers) — Self-hosted web application for uploading and sharing files with password protection and expiration dates.
+- 🛋️ **[Cozy Stack](https://github.com/cozy/cozy-stack)** [![](https://img.shields.io/github/stars/cozy/cozy-stack?style=social&color=white)](https://github.com/cozy/cozy-stack/stargazers) — Personal cloud platform server aggregating personal data, document synchronization, and app integration.
+- 🌐 **[OpenCloud](https://github.com/opencloud-eu/opencloud)** [![](https://img.shields.io/github/stars/opencloud-eu/opencloud?style=social&color=white)](https://github.com/opencloud-eu/opencloud/stargazers) — Modern European open-source cloud file management and enterprise collaboration platform.
+- 🌊 **[Seafile Server](https://github.com/haiwen/seafile-server)** [![](https://img.shields.io/github/stars/haiwen/seafile-server?style=social&color=white)](https://github.com/haiwen/seafile-server/stargazers) — High-performance file sync engine focusing on fast block-based sync, library encryption, and drive mounting.
+
+---
+
+## 🛠️ Storage, Security & Identity Infrastructure
+
+Below are adjacent open-source components that form a production-grade, highly-available enterprise EFSS stack when combined with a collaboration engine:
 
-Absolutely — I’ll keep the same structure as the previous ecosystem READMEs, with SaaS/Hosted Platforms and Open-Source GitHub Projects clearly separated and a strong emphasis on OSS. I’ve also included adjacent open-source building blocks where they can realistically form an enterprise EFSS stack, while keeping them distinct from direct EFSS equivalents. Current OSS examples include Nextcloud, Seafile, ownCloud Infinite Scale, OpenCloud, Pydio Cells, Syncthing, Cloudreve, Filestash, and others. 
-OpenSourceSoftware.io
-+3
-GitHub
-+3
-GitHub
-+3
+| Component Category | Repository / Tool | Stars | Role in EFSS Architecture |
+| :--- | :--- | :--- | :--- |
+| **Workflow Automation** | **[Apache Airflow](https://github.com/apache/airflow)** | [![](https://img.shields.io/github/stars/apache/airflow?style=social&color=white)](https://github.com/apache/airflow/stargazers) | Orchestrating content lifecycle pipelines, scheduled archival, and compliance jobs. |
+| **Event Streaming** | **[Apache Kafka](https://github.com/apache/kafka)** | [![](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers) | Asynchronous audit logs, real-time sync notification distribution, and file upload event buses. |
+| **Identity & IAM** | **[Keycloak](https://github.com/keycloak/keycloak)** | [![](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | Centralized SSO, SAML 2.0, OpenID Connect, and enterprise directory integration. |
+| **Distributed Storage** | **[SeaweedFS](https://github.com/seaweedfs/seaweedfs)** | [![](https://img.shields.io/github/stars/seaweedfs/seaweedfs?style=social&color=white)](https://github.com/seaweedfs/seaweedfs/stargazers) | Fast distributed blob and file system backend for storing millions of small/large files. |
+| **Identity Provider** | **[Authentik](https://github.com/authentik/authentik)** | [![](https://img.shields.io/github/stars/authentik/authentik?style=social&color=white)](https://github.com/authentik/authentik/stargazers) | Flexible open-source identity provider for user access control, MFA, and OAuth 2.0. |
+| **Document Suite** | **[ONLYOFFICE Docs](https://github.com/ONLYOFFICE/DocumentServer)** | [![](https://img.shields.io/github/stars/ONLYOFFICE/DocumentServer?style=social&color=white)](https://github.com/ONLYOFFICE/DocumentServer/stargazers) | Collaborative online document editing server compatible with Nextcloud, ownCloud, and Seafile. |
+| **Enterprise Storage** | **[Ceph](https://github.com/ceph/ceph)** | [![](https://img.shields.io/github/stars/ceph/ceph?style=social&color=white)](https://github.com/ceph/ceph/stargazers) | Unified, distributed storage system providing object (RADOS/S3) and block storage. |
+| **Search & Discovery** | **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** | [![](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) | Distributed search engine for full-text document search and audit log analytics. |
+| **Policy Enforcement** | **[Open Policy Agent](https://github.com/open-policy-agent/opa)** | [![](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers) | Fine-grained, unified policy enforcement for file access authorization and governance. |
+| **Malware Security** | **[ClamAV](https://github.Cisco-Talos/clamav)** | [![](https://img.shields.io/github/stars/Cisco-Talos/clamav?style=social&color=white)](https://github.com/Cisco-Talos/clamav/stargazers) | Antivirus engine integrated into file-upload pipelines to block infected file sharing. |
+| **Office Editing** | **[Collabora Online](https://github.com/CollaboraOnline/online)** | [![](https://img.shields.io/github/stars/CollaboraOnline/online?style=social&color=white)](https://github.com/CollaboraOnline/online/stargazers) | Enterprise-grade online office editor based on LibreOffice technology. |
+| **Geo-Storage** | **[Garage Storage](https://github.com/garage-hq/garage)** | [![](https://img.shields.io/github/stars/garage-hq/garage?style=social&color=white)](https://github.com/garage-hq/garage/stargazers) | Lightweight S3-compatible distributed object storage for self-hosted multi-site clusters. |
+| **Metadata Extraction**| **[Apache Tika](https://github.com/apache/tika)** | [![](https://img.shields.io/github/stars/apache/tika?style=social&color=white)](https://github.com/apache/tika/stargazers) | Content analysis toolkit for extracting text and metadata from 1000+ file types. |
+| **Legacy Network Sharing**| **[Samba](https://github.com/samba-team/samba)** | [![](https://img.shields.io/github/stars/samba-team/samba?style=social&color=white)](https://github.com/samba-team/samba/stargazers) | Open-source SMB/CIFS file sharing services for heterogeneous enterprise networks. |
 
-Top Enterprise File Sync & Share Platforms Ecosystem
-Top Enterprise File Sync & Share (EFSS) Platforms Ecosystem
+---
 
-Curated List of SaaS Products & Open-Source GitHub Projects
-Focused on Enterprise File Sync, File Sharing, Content Collaboration, Secure File Transfer & Private Cloud Storage
-Last updated: September 2026
+## 🤝 How to Contribute
 
-This repository tracks notable Enterprise File Sync & Share (EFSS) platforms and open-source projects for securely storing, synchronizing, sharing, governing, and collaborating on files across users, devices, teams, and organizations.
+Contributions are warmly welcome! Please follow these guidelines:
 
-Examples include Egnyte, Box, Dropbox Business, Google Drive, Microsoft OneDrive for Business, Citrix ShareFile, Kiteworks, Syncplicity, Nextcloud Enterprise, OpenText Core Share, Seafile, ownCloud, OpenCloud, Pydio Cells, and Syncthing.
+1. Fork this repository.
+2. Add new platforms, open-source projects, or architectural building blocks in the appropriate section.
+3. Keep descriptions technically accurate, neutral, and concise.
+4. For SaaS solutions, ensure accurate starting pricing tiers and free trial parameters are included.
+5. Submit a clean Pull Request with clear commit messages.
 
-Open-source emphasis: The Open-Source section prioritizes self-hosted and community-driven alternatives that can provide Dropbox/Box/OneDrive-style file synchronization and sharing, as well as the infrastructure required to build enterprise-grade private file collaboration platforms.
+---
 
-Contributions welcome! Please add missing platforms, open-source projects, integrations, and infrastructure components.
+## 💖 Support & Community
 
-Table of Contents
+If you find this curated ecosystem directory helpful, please consider showing your support:
 
-SaaS/Hosted Platforms
+- ⭐ **Star this repository** to help others discover it on GitHub.
+- 🔀 **Fork & Share** with your fellow developers, DevOps teams, and sysadmins.
+- ☕ **Sponsor / Buy me a coffee**: Support ongoing open-source curation and development via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
-Open-Source GitHub Projects
+---
 
-How to Contribute
+## 📈 Star History
 
-Disclaimer
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-File-Sync-n-Share&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-File-Sync-n-Share&type=date&legend=top-left)
 
-SaaS/Hosted Platforms
+---
 
-Egnyte
-Enterprise content intelligence and file-sharing platform combining secure file collaboration, governance, compliance, data security, and content management.
+## ⚖️ Disclaimer
 
-Box
-Enterprise cloud content management and secure file-sharing platform with collaboration, workflow automation, governance, and extensive enterprise integrations.
+*This list is a curated ecosystem directory for educational and architectural evaluation purposes and does not represent an endorsement or financial ranking. SaaS features, pricing, and open-source project metrics change over time; always verify licensing, security compliance, and vendor SLAs prior to enterprise deployment.*
 
-Dropbox Business
-Business-oriented cloud file storage, synchronization, sharing, collaboration, administration, and content management platform.
-
-Google Drive / Google Workspace
-Cloud file storage and collaboration platform integrated with Google Docs, Sheets, Slides, Gmail, Meet, and Google Workspace administration.
-
-Microsoft OneDrive for Business
-Enterprise file synchronization and cloud storage integrated with Microsoft 365, SharePoint, Teams, Office, and Microsoft Entra ID.
-
-Citrix ShareFile
-Secure enterprise file sharing and collaboration platform focused on controlled document exchange, workflows, client collaboration, and secure content management.
-
-Kiteworks
-Private content communications platform for secure file sharing, managed file transfer, email protection, governance, compliance, and sensitive-content workflows.
-
-Syncplicity
-Enterprise file synchronization and collaboration platform focused on secure access, file sharing, centralized policy control, and enterprise content management.
-
-Nextcloud Enterprise
-Enterprise-supported private cloud collaboration platform providing file sync and share, content collaboration, office integration, communications, and self-hosted data control.
-
-OpenText Core Share
-Enterprise content collaboration and secure file-sharing platform designed for controlled document sharing, external collaboration, and information governance.
-
-SharePoint
-Enterprise content management and collaboration platform deeply integrated with Microsoft 365 and commonly used as a governed document repository behind OneDrive and Teams.
-
-Citrix Content Collaboration
-Enterprise content collaboration technology for secure file access, sharing, synchronization, and content workflows.
-
-LucidLink
-Cloud-native distributed file system providing shared file access and collaborative workflows for large media and data-intensive workloads.
-
-Files.com
-Managed file transfer and secure file-sharing platform supporting automation, integrations, governance, and business-to-business file exchange.
-
-Tresorit
-Secure cloud collaboration and file-sharing platform emphasizing end-to-end encryption, privacy, access controls, and regulated-industry use cases.
-
-Sync.com
-Secure cloud storage and file-sharing platform providing encrypted synchronization, collaboration, and business administration capabilities.
-
-pCloud Business
-Business cloud storage and file-sharing platform with synchronization, team collaboration, access controls, and client-side encryption options.
-
-SpiderOak
-Security-focused data collaboration and file-sharing technology emphasizing zero-trust architecture and privacy.
-
-FileCloud
-Enterprise file sharing and content collaboration platform supporting private cloud, hybrid deployment, governance, synchronization, and secure external sharing.
-
-Ctera
-Enterprise distributed file services platform combining global file access, edge file services, cloud storage, synchronization, and data protection.
-
-Nasuni
-Enterprise file data platform providing global file access, edge caching, cloud-based storage, synchronization, and centralized management.
-
-NetApp BlueXP
-Hybrid multicloud data management platform supporting enterprise file services, synchronization, storage management, and cloud data mobility.
-
-Hightail
-Business-oriented file sharing and large-file collaboration platform designed for creative teams and external content exchange.
-
-MASV
-High-speed large-file transfer platform designed for moving very large media and data files between organizations and collaborators.
-
-Filecamp
-Cloud-based digital asset and file-sharing platform with team libraries, permissions, sharing, and collaboration features.
-
-Zoho WorkDrive
-Team file storage and collaboration platform providing shared folders, synchronization, document management, and business administration.
-
-Dropbox Enterprise
-Enterprise Dropbox offering with centralized administration, advanced security, content management, and collaboration capabilities.
-
-Open-Source GitHub Projects
-
-Nextcloud
-One of the most comprehensive open-source private-cloud platforms for file synchronization, sharing, collaboration, versioning, access controls, and extensible content services.
-
-Seafile
-Open-source cloud storage and file-sync platform focused strongly on efficient synchronization, file sharing, libraries, versioning, encryption, metadata, and collaboration. Its architecture includes separate server, web UI, and client repositories.
-
-ownCloud Infinite Scale (oCIS)
-Modern open-source file sync and share platform from ownCloud, built around a scalable backend and APIs such as WebDAV and CS3, with integrations for Collabora, OnlyOffice, and Microsoft Office Online Server.
-
-OpenCloud
-Modern open-source cloud file management and collaboration platform designed for self-hosted file sharing, synchronization, identity, governance, and enterprise-oriented collaboration.
-
-Pydio Cells
-Open-source content collaboration and file-sharing platform designed for organizations requiring self-hosted document collaboration, sharing, workflows, and access control.
-
-Syncthing
-Decentralized peer-to-peer continuous file synchronization system that synchronizes folders directly between devices without requiring a centralized cloud-storage provider.
-
-Cloudreve
-Self-hosted cloud file management and sharing platform supporting multiple storage backends, file organization, sharing, and online file management.
-
-File Browser
-Lightweight self-hosted web-based file manager providing browser-based access, file operations, sharing, and user management.
-
-Filestash
-Web-based file manager capable of connecting to multiple storage backends and protocols through a unified interface.
-
-Sync-in
-Open-source self-hosted file synchronization and collaboration platform designed around shared storage, file access, and governed collaborative workspaces.
-
-Cozy
-Open-source personal cloud platform providing private data aggregation, storage, synchronization, and application integration.
-
-Chibisafe
-Self-hosted file-upload and sharing platform designed for quickly uploading files and generating shareable links.
-
-Sharry
-Self-hosted web application for uploading files and generating controlled sharing links, including expiration and password options.
-
-PsiTransfer
-Lightweight self-hosted file-sharing application for transferring large files through browser-generated download links.
-
-FileRise
-Self-hosted web file management and sharing platform with access controls, WebDAV support, and file-management capabilities.
-
-Twake Drive
-Open-source collaboration ecosystem including file-management and shared-drive capabilities for organizations.
-
-Cloud Commander
-Web-based file manager providing browser-based management of files and directories on self-hosted infrastructure.
-
-rclone
-Command-line cloud-storage synchronization and management tool supporting a very large number of local, cloud, and remote storage backends.
-
-rclone-ui
-Community interfaces and management tooling around rclone-style cloud-storage operations and synchronization.
-
-Unison
-Bidirectional file synchronization tool for keeping replicas of files and directories synchronized across machines.
-
-Syncthing-Fork
-Android-oriented Syncthing client enabling decentralized file synchronization between Android devices and other Syncthing nodes.
-
-Nextcloud Desktop Client
-Open-source desktop synchronization client for connecting local files and folders to Nextcloud servers.
-
-Nextcloud Android
-Open-source Android client for accessing, synchronizing, uploading, and sharing files through Nextcloud.
-
-Nextcloud iOS
-Open-source iOS client providing mobile access to Nextcloud files and collaborative content.
-
-Additional Strong Open-Source Options
-
-MinIO
-High-performance S3-compatible object storage that can serve as the scalable storage layer underneath a custom enterprise file-sharing platform.
-
-Garage
-Distributed S3-compatible object storage designed for self-hosted and decentralized deployments.
-
-SeaweedFS
-Distributed storage system that can provide scalable file and object storage infrastructure for self-hosted applications.
-
-Ceph
-Distributed storage platform providing object, block, and filesystem storage for large-scale private-cloud infrastructure.
-
-OpenZFS
-Advanced filesystem and storage-management technology useful as the underlying storage layer for private file-cloud deployments.
-
-Samba
-Open-source implementation of SMB/CIFS that can provide traditional network file-sharing capabilities within enterprise environments.
-
-WebDAV
-HTTP-based protocol ecosystem widely used for remote file access and synchronization and supported by many private-cloud platforms.
-
-Eclipse OpenMQTT Gateway
-MQTT-related open infrastructure can be integrated into event-driven storage and synchronization architectures where device-originated file workflows are required.
-
-Keycloak
-Open-source identity and access-management platform useful for adding SSO, OAuth 2.0, OpenID Connect, and centralized identity management to self-hosted EFSS deployments.
-
-Authentik
-Open-source identity provider useful for integrating authentication, SSO, and access policies into private file-sharing environments.
-
-OpenLDAP
-Open-source LDAP implementation that can provide centralized directory services for enterprise file-sharing deployments.
-
-Collabora Online
-Open-source online office suite that can be integrated with platforms such as Nextcloud, ownCloud, and Seafile for browser-based collaborative document editing.
-
-ONLYOFFICE Docs
-Open-source office document server supporting collaborative editing and integration with self-hosted file-management platforms.
-
-Apache Tika
-Content-analysis toolkit useful for extracting text and metadata from documents uploaded into an enterprise content platform.
-
-OpenSearch
-Open-source search and analytics engine useful for building full-text search and content discovery over enterprise file repositories.
-
-ClamAV
-Open-source antivirus engine that can be integrated into self-hosted file-upload pipelines for malware scanning.
-
-Open Policy Agent
-General-purpose open-source policy engine useful for implementing fine-grained authorization and governance rules around file access.
-
-Apache Kafka
-Distributed event-streaming platform useful for building asynchronous file-processing, audit, synchronization, and notification pipelines.
-
-Apache Airflow
-Open-source workflow orchestration platform useful for automating content-processing, archival, migration, and compliance workflows.
-
-Framework for building a self-hosted Enterprise File Sync & Share platform: Combine Nextcloud / Seafile / ownCloud Infinite Scale / OpenCloud as the collaboration layer, MinIO / Ceph / SeaweedFS / OpenZFS for scalable storage, Keycloak / Authentik / OpenLDAP for identity, Collabora Online / ONLYOFFICE Docs for document collaboration, OpenSearch / Apache Tika for search and content indexing, ClamAV for malware scanning, and Open Policy Agent for policy enforcement. For decentralized device synchronization, Syncthing can operate as a complementary synchronization layer. This architecture can provide many of the fundamental building blocks behind enterprise EFSS platforms while retaining control over infrastructure and data.
-
-How to Contribute
-
-Fork this repository.
-
-Add the platform or open-source project to the appropriate section.
-
-Prefer official product websites for SaaS platforms.
-
-Prefer official GitHub repositories for open-source projects.
-
-Keep descriptions concise and technically accurate.
-
-Prioritize actively maintained projects.
-
-Submit a pull request with your changes.
-
-Disclaimer
-
-This is a curated ecosystem rather than a ranking or endorsement.
-
-SaaS platforms may differ significantly in deployment model, pricing, security controls, compliance certifications, storage architecture, and collaboration capabilities.
-
-Some projects in the Open-Source section are complete EFSS platforms, while others are storage, synchronization, identity, collaboration, security, or infrastructure components that can be combined to build an EFSS solution.
-
-Open-source availability, licensing, features, and project activity can change over time.
-
-Always verify licensing, security, maintenance status, enterprise support, and deployment requirements before adopting a platform.
-
-Made for developers, IT teams, infrastructure engineers, security teams & organizations building the next generation of Enterprise File Sync & Share platforms.
-Let's make enterprise file collaboration more open, secure, interoperable & self-hostable.
-
-Remove unrelated and mismatched projects
-Group open-source projects by function
+<p align="center">
+  Made with ❤️ for developers, infrastructure engineers, IT administrators, and privacy advocates.<br/>
+  Curated by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> • Ecosystem powered by <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome">Awesome-Awesome-Awesome</a>
+</p>
